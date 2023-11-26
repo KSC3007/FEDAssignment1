@@ -14,11 +14,20 @@
         color: white;
       }
 
-      .container {
+      .flex-item {
+        color: black;
+        flex-basis: 15%;
+        margin: 2%;
+        text-align: center;
+        line-height: 75px;
+        font-size: 2em;
+      }
+
+
+      .flex-container {
         align-content: center;
         display: flex;
-        width: 100%;
-        flex-wrap: wrap;
+        flex-direction: row-reverse;
         align-items: center;
         justify-content: center;
       }
@@ -42,8 +51,6 @@
         flex-direction: column;
         padding: 2%;
       }
-
-      
 
       @media screen and (max-width: 576px) {
         .split {
