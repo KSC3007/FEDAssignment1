@@ -1,6 +1,10 @@
 /* Theming */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Nunito+Sans:opsz,wght@6..12,200;6..12,400&family=PT+Sans:wght@400;700&display=swap');
 
+html {
+    background-color: #00539f;
+}
+  
 :root{
     --white: #f9f9f9;
     --black: #36383F;
@@ -35,7 +39,7 @@ ul{
 }
 .menu a{
     display: block;
-    padding: 15px;
+    padding: 25px;
     color: var(--white);
 }
 .menu a:hover{
@@ -117,10 +121,10 @@ ul{
 
 /* Sub nav */
 .subnav-content {
-    background-color:  var(--white);
+    background-color: deepskyblue;
     width: 100%;
     z-index: 1;
-    padding: 20px 0 ;
+    padding: 17px ;
     display: none;
 }
 .subnav-content a {
@@ -168,6 +172,35 @@ ul{
     }
 }
 
+/*Container for main banner image */
+#content #mainContent #bannerImage {
+	
+	width: 100%;
+	background-color: rgba(208,207,207,1.00);
+}
+
+#mainContent #bannerImage img {
+	/* Actual banner image */
+	width: 100%;
+}
+
+/* News button */
+.newsbtn {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 100px 720px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+}
+
+.newsbtn:hover {
+    background-color: #3e8e41;
+    color: white;
+}
+
 /* Flex objects */
 .flex-item {
 	color: black;
@@ -179,6 +212,7 @@ ul{
 }
 
 .flex-container {
+    background-color: deepskyblue;
 	align-content: center;
 	display: flex;
 	flex-direction: row;
