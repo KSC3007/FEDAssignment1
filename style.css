@@ -1,8 +1,8 @@
 /* Theming */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Nunito+Sans:opsz,wght@6..12,200;6..12,400&family=PT+Sans:wght@400;700&display=swap');
 
-html {
-    background-color: #00539f;
+main {
+    background-color: #036fd4;
 }
   
 :root{
@@ -138,8 +138,9 @@ ul{
     display: block;
 }
 
+
 /* Responsiveness */
-@media (min-width: 900px) {
+@media (min-width: 1075px) {
     .nav{
         max-height: none;
         top: 0;
@@ -172,35 +173,6 @@ ul{
     }
 }
 
-/*Container for main banner image */
-#content #mainContent #bannerImage {
-	
-	width: 100%;
-	background-color: rgba(208,207,207,1.00);
-}
-
-#mainContent #bannerImage img {
-	/* Actual banner image */
-	width: 100%;
-}
-
-/* News button */
-.newsbtn {
-    background-color: #ddd;
-    border: none;
-    color: black;
-    padding: 100px 720px;
-    text-align: center;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition: 0.3s;
-}
-
-.newsbtn:hover {
-    background-color: #3e8e41;
-    color: white;
-}
-
 /* Flex objects */
 .flex-item {
 	color: black;
@@ -220,13 +192,7 @@ ul{
 	justify-content: center;
 }
 
-@media (max-width: 1000px) {
-	.flex-container {
-	  flex-direction: row;
- }
-}
-
-@media (max-width: 900px) {
+@media (max-width: 1075px) {
 	.flex-container {
 	  flex-flow: column wrap;
 	  flex-direction: row;
