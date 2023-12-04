@@ -1,6 +1,10 @@
 /* Theming */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Nunito+Sans:opsz,wght@6..12,200;6..12,400&family=PT+Sans:wght@400;700&display=swap');
 
+html {
+    background-color: deepskyblue;
+}
+
 main {
     background-color: deepskyblue;
 }
@@ -140,7 +144,7 @@ ul{
 
 
 /* Responsiveness */
-@media (min-width: 1075px) {
+@media (min-width: 900px) {
     .nav{
         max-height: none;
         top: 0;
@@ -214,16 +218,26 @@ ul{
 	}
 }
 
-#Recentopenings {
+#openings {
     table-layout: auto;
     border-collapse: collapse;
     width: 100%;
 }
 
-#Recentopenings th {
+#openings th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
     background-color: #036fd4;
-    color: var(--black);
-  }
+    border: 1px solid #036fd4;
+    color: var(--white);
+}
+
+#openings tr {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 1px solid #036fd4;
+    padding: 8px;
+}
+
+#openings tr:hover {background-color: rgb(0, 168, 224);}
