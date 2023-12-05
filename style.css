@@ -1,6 +1,6 @@
 /* Theming */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Nunito+Sans:opsz,wght@6..12,200;6..12,400&family=PT+Sans:wght@400;700&display=swap');
-
+/*Background colours*/
 html {
     background-color: deepskyblue;
 }
@@ -8,6 +8,13 @@ html {
 main {
     background-color: deepskyblue;
 }
+
+footer {
+    background-color: rgb(15, 2, 200);
+    color: var(--white);
+}
+
+img { border: 0; }
   
 :root{
     --white: #f9f9f9;
@@ -30,6 +37,12 @@ a{
 }
 ul{
     list-style: none;
+}
+h1 {
+	text-align: center;
+}
+h3 {
+	text-align: center;
 }
 
 /* Nav menu */
@@ -115,6 +128,7 @@ ul{
     top: 0;
     width: 100%;
 }
+
 /* Logo */
 .logo{
     display: inline-block;
@@ -218,13 +232,14 @@ ul{
 	}
 }
 
-#openings {
+/* Table for the news page */
+table.openings {
     table-layout: auto;
     border-collapse: collapse;
     width: 100%;
 }
 
-#openings th {
+table.openings th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
@@ -233,11 +248,11 @@ ul{
     color: var(--white);
 }
 
-#openings tr {
+table.openings tr {
     padding-top: 12px;
     padding-bottom: 12px;
     border: 1px solid #036fd4;
     padding: 8px;
 }
 
-#openings tr:hover {background-color: rgb(0, 168, 224);}
+table.openings tr:hover {background-color: rgb(0, 168, 224);}
