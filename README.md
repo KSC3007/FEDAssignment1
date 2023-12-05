@@ -5,7 +5,10 @@ Urbanrail.net is a website which showcases the many urban railway systems around
 However, the site's layout is very mobile-unfriendly, with small buttons and a hard-to-navigate interface. In addition, the site has a very outdated look and feel.
 The purpose of this FED Project is to use HTML, CSS and JavaScript to revamp Urbanrail.net to give it a more modern look and feel, as well as to make it more mobile and user-friendly.
 
-I decided to keep some aspects of the original website, namely the colour scheme and the five images on the homepage representing the six inhabited continents, but added some responsive features to it, such as a flex function such that the images on the homepage 
+I decided to keep some aspects of the original website, namely the colour scheme and the five images on the homepage representing the six inhabited continents, but added some responsive features to it, such as a flex function such that the images on the homepage wrap around for ease
+of mobile navigation.
+
+I even added a javascript function on the website to enlage the icons on a mouse-over.
 
 Attributions
 A northbound R179 C train pulling out of West 4th Street in Manhattan, IND Eighth Avenue Line (cropped). By GeneralPunger - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=98572921
